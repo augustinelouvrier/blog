@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://augustinelouvrier.github.io/sitemap.xml
+Sitemap: https://augustinelouvrier.github.io/blog//sitemap.xml
