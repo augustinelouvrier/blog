@@ -5,19 +5,19 @@ called **al-folio**, but you don't need to know anything about that. This site
 has been trimmed down to just what you need. Right now the menu at the top has
 **four** things:
 
-| Menu item        | What it is                                             | The file you edit                     |
-| ---------------- | ------------------------------------------------------ | ------------------------------------- |
-| **(your name)**  | The home / **about** page (top-left, links to `/`)     | `_pages/about.md`                     |
-| **blog**         | The list of all your posts                             | files in the `_posts/` folder         |
-| **CV**           | Your CV / résumé page                                  | `_data/cv.yml`                        |
-| **submenus**     | A little **drop-down menu** (see the last section)     | `_pages/dropdown.md`                  |
+| Menu item       | What it is                                         | The file you edit             |
+| --------------- | -------------------------------------------------- | ----------------------------- |
+| **(your name)** | The home / **about** page (top-left, links to `/`) | `_pages/about.md`             |
+| **blog**        | The list of all your posts                         | files in the `_posts/` folder |
+| **CV**          | Your CV / résumé page                              | `_data/cv.yml`                |
+| **submenus**    | A little **drop-down menu** (see the last section) | `_pages/dropdown.md`          |
 
 Everything else that came with the template (publications, projects, teaching,
 etc.) has just been **hidden from the menu** — the files are still there, but no
 one sees them. You can ignore them.
 
 > 💡 **Golden rule:** the parts between the two `---` lines at the very top of a
-> file are *settings* (called "front matter"). Change the words after the `:`,
+> file are _settings_ (called "front matter"). Change the words after the `:`,
 > but keep the layout of colons and dashes the same. Everything **below** the
 > second `---` is your actual writing.
 
@@ -53,23 +53,23 @@ Open **`_pages/about.md`**.
 **The settings at the top** control the layout:
 
 ```yaml
-subtitle: Chemistry student at Imperial College London   # the line under your name
+subtitle: Chemistry student at Imperial College London # the line under your name
 profile:
   align: right
-  image: prof_pic.jpg          # your photo (see section 0)
-  image_circular: false        # true = round photo, false = square
+  image: prof_pic.jpg # your photo (see section 0)
+  image_circular: false # true = round photo, false = square
   more_info: >
     <p>Department of Chemistry</p>
     <p>Imperial College London</p>
-social: true                   # true = show your social icons at the bottom
+social: true # true = show your social icons at the bottom
 ```
 
-- Change `subtitle` to describe yourself (e.g. *"Chemistry undergrad who likes
-  reactions that change colour"*).
+- Change `subtitle` to describe yourself (e.g. _"Chemistry undergrad who likes
+  reactions that change colour"_).
 - Edit the `more_info` lines to whatever you want under your photo, or delete
   them.
 
-**Your actual bio** is everything *below* the second `---`. Just delete the
+**Your actual bio** is everything _below_ the second `---`. Just delete the
 placeholder text and write about yourself in plain English. You can use links
 like this: `[the RSC](https://www.rsc.org)`.
 
@@ -77,9 +77,9 @@ There are two extra boxes on the homepage you can leave on or turn off:
 
 ```yaml
 announcements:
-  enabled: true      # a "news" feed — set to false to hide it
+  enabled: true # a "news" feed — set to false to hide it
 latest_posts:
-  enabled: true      # shows your 3 newest blog posts — nice to keep on!
+  enabled: true # shows your 3 newest blog posts — nice to keep on!
 ```
 
 ---
@@ -117,7 +117,7 @@ Start writing here! This is normal text.
 
 ## You can add headings like this
 
-You can make words **bold** or *italic*, and add
+You can make words **bold** or _italic_, and add
 [links](https://www.rsc.org) like that.
 
 - bullet points
@@ -208,12 +208,12 @@ want cluttering the main menu.
 It's controlled by **`_pages/dropdown.md`**:
 
 ```yaml
-title: submenus            # the word shown in the menu bar
+title: submenus # the word shown in the menu bar
 dropdown: true
 children:
-  - title: bookshelf       # a link inside the drop-down
+  - title: bookshelf # a link inside the drop-down
     permalink: /books/
-  - title: divider         # draws a thin separating line
+  - title: divider # draws a thin separating line
   - title: blog
     permalink: /blog/
 ```
