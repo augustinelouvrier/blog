@@ -32,10 +32,10 @@ In this blog I want to write about anything that piques my interest in this fiel
 
 Besides chemistry, I spend my free time doing drawings and paintings, cooking, and sailing. I am the incoming vice commodore of the Imperial sailing society. 
 
+<div class="caption">
+    Some snapshots from second-year labs.
+</div>
 <div class="row align-items-center">
-  <div class="caption">
-      Some snapshots from second-year labs.
-  </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/lab1.jpg" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
