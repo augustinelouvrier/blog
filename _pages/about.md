@@ -33,32 +33,50 @@ In this blog I want to write about anything that piques my interest in this fiel
 Besides chemistry, I spend my free time doing drawings and paintings, cooking, and sailing. I am the incoming vice commodore of the Imperial sailing society. 
 
 
-<div class="row">
+<div class="row align-items-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/lab1.jpg" title="Synthesised ligand for the synthesis investigation lab: (E)-2-((phenethylimino)methyl)phenol. " class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/lab1.jpg" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+            Synthesised ligand for the synthesis investigation lab: (E)-2-((phenethylimino)methyl)phenol
+        </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/lab2.jpg" title="Dissolving iron chloride in degassed DMSO in nitrogen atmosphere" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/lab2.jpg" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+            Dissolving iron chloride in degassed DMSO in nitrogen atmosphere
+        </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/lab3.jpg" title="Dropwise addition of iodine chloride in DCM to pyridine in DCM at 0 ºC" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/lab3.jpg" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+            Dropwise addition of iodine chloride in DCM to pyridine in DCM at 0 ºC
+        </div>
     </div>
 </div>
 <div class="caption">
     Some snapshots from second-year labs.
 </div>
 
-<div class="row">
+<div class="row align-items-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/sailing1.jpg" title="Switching boats at a competition" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/sailing1.jpg" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+            Switching boats at a competition
+        </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/sailing2.jpg" title="Sailing at Reading 2025 competition" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/sailing2.jpg" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+            Sailing at Reading 2025 competition
+        </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/sailing3.jpg" title="Team picture from Reading 2025" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/sailing3.jpg" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+            Team picture from Reading 2025
+        </div>
     </div>
 </div>
 <div class="caption">
-    Some snapshots from second-year labs.
+    Some snapshots from a sailing competition
 </div>
