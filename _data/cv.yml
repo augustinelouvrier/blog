@@ -19,7 +19,7 @@ cv:
         studyType: MSc
         start_date: 2024
         end_date: 2028
-        score: 2:1, expected first class
+        score: "2:1, expected first class"
         courses: Ancillary module, Maths and Physics
         highlights:
           - Provisional A in "Control and Selectivity in Molecular Synthesis" and "Macromolecules and Materials"
@@ -68,7 +68,7 @@ cv:
 
 
     Volunteer:
-    -   title: Imperial College Sailing Club
+      - title: Imperial College Sailing Club
         position: Secretary, incoming Vice Commodore
         start_date: 2025-09
         end_date: present
