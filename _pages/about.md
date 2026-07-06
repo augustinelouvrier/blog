@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>email: <a href="mailto:augustinelouvrier@gmail.com">augustinelouvrier@gmail.com</a></p>
+    <p><a href="mailto:augustinelouvrier@gmail.com">augustinelouvrier@gmail.com</a></p>
     <p><a href="https://www.linkedin.com/in/augustinelouvrier" target="_blank">LinkedIn</a></p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
