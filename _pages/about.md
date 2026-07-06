@@ -34,10 +34,13 @@ Besides chemistry, I spend my free time doing drawings and paintings, cooking, a
 
 
 <div class="row align-items-center">
+<div class="caption">
+    Some snapshots from second-year labs.
+</div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/lab1.jpg" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
-            Synthesised ligand for the synthesis investigation lab: (E)-2-((phenethylimino)methyl)phenol
+            Dropwise addition of iodine chloride in DCM to pyridine in DCM at 0 ºC
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
@@ -49,15 +52,16 @@ Besides chemistry, I spend my free time doing drawings and paintings, cooking, a
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/lab3.jpg" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
-            Dropwise addition of iodine chloride in DCM to pyridine in DCM at 0 ºC
+            Synthesised ligand for the synthesis investigation lab
         </div>
     </div>
 </div>
-<div class="caption">
-    Some snapshots from second-year labs.
-</div>
+
 
 <div class="row align-items-center">
+<div class="caption">
+    Some snapshots from a sailing competition
+</div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/sailing1.jpg" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
@@ -76,7 +80,4 @@ Besides chemistry, I spend my free time doing drawings and paintings, cooking, a
             Team picture from Reading 2025
         </div>
     </div>
-</div>
-<div class="caption">
-    Some snapshots from a sailing competition
 </div>
