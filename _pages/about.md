@@ -39,7 +39,7 @@ Besides chemistry, I enjoy drawing and painting, cooking, and sailing. I am the 
 <div class="caption">
     Some snapshots from second-year labs.
 </div>
-<swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true" style="max-width: 67%; margin: 0 auto;">
+<swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true" style="max-width: 35%; margin: 0 auto;">
   <swiper-slide>
     {% include figure.liquid path="assets/img/lab1.jpg" class="img-fluid rounded z-depth-1" %}
     <div class="caption">Dropwise addition of iodine chloride in DCM to pyridine in DCM at 0 ºC</div>
@@ -57,7 +57,7 @@ Besides chemistry, I enjoy drawing and painting, cooking, and sailing. I am the 
 <div class="caption">
     Some snapshots from a sailing competition
 </div>
-<swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true" style="max-width: 67%; margin: 0 auto;">
+<swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true" style="max-width: 35%; margin: 0 auto;">
   <swiper-slide>
     {% include figure.liquid path="assets/img/sailing1.jpg" class="img-fluid rounded z-depth-1" %}
     <div class="caption">Switching boats at a competition</div>
