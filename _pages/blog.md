@@ -29,6 +29,12 @@ pagination:
   </div>
   {% endif %}
 
+<!-- Category descriptions — edit the text after each "—" to describe your two categories. -->
+<div class="category-descriptions" style="margin: 1.5rem 0; line-height: 1.6;">
+  <p><strong><a href="{{ '/blog/category/long/' | relative_url }}">long</a></strong> — in-depth articles digging into real research papers, for the harder side of cosmetic chemistry.</p>
+  <p><strong><a href="{{ '/blog/category/short/' | relative_url }}">short</a></strong> — quick, beginner-friendly breakdowns of chemistry concepts that anyone can follow.</p>
+</div>
+
 {% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}
 
   <div class="tag-category-list">

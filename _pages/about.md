@@ -32,6 +32,17 @@ In this blog I want to write about anything that piques my interest in this fiel
 
 Besides chemistry, I spend my free time doing drawings and paintings, cooking, and sailing. I am the incoming vice commodore of the Imperial sailing society. 
 
+## Favourite resources
+
+Some sites I love and keep coming back to:
+
+- [Compound Interest](https://www.compoundchem.com/) — clear infographics on everyday chemistry
+- [Royal Society of Chemistry](https://www.rsc.org/) — journals, news and teaching material
+- [PubChem](https://pubchem.ncbi.nlm.nih.gov/) — a free database to look up any molecule
+
+You can also highlight a phrase in the site's <span style="color: var(--global-theme-color)">purple accent colour</span> whenever you want to draw the eye to it.
+
+<div style="clear: both;"></div>
 <div class="caption">
     Some snapshots from second-year labs.
 </div>
