@@ -4,6 +4,9 @@ title: about
 permalink: /
 subtitle: Augustine Louvrier
 
+images:
+  slider: true
+
 profile:
   align: right
   image: prof_pic.jpg
@@ -36,47 +39,35 @@ Besides chemistry, I enjoy drawing and painting, cooking, and sailing. I am the 
 <div class="caption">
     Some snapshots from second-year labs.
 </div>
-<div class="row align-items-center">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/lab1.jpg" class="img-fluid rounded z-depth-1" %}
-        <div class="caption">
-            Dropwise addition of iodine chloride in DCM to pyridine in DCM at 0 ºC
-        </div>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/lab2.jpg" class="img-fluid rounded z-depth-1" %}
-        <div class="caption">
-            Dissolving iron chloride in degassed DMSO in nitrogen atmosphere
-        </div>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/lab3.jpg" class="img-fluid rounded z-depth-1" %}
-        <div class="caption">
-            Synthesised ligand for the synthesis investigation lab
-        </div>
-    </div>
-</div>
+<swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true" style="max-width: 67%; margin: 0 auto;">
+  <swiper-slide>
+    {% include figure.liquid path="assets/img/lab1.jpg" class="img-fluid rounded z-depth-1" %}
+    <div class="caption">Dropwise addition of iodine chloride in DCM to pyridine in DCM at 0 ºC</div>
+  </swiper-slide>
+  <swiper-slide>
+    {% include figure.liquid path="assets/img/lab2.jpg" class="img-fluid rounded z-depth-1" %}
+    <div class="caption">Dissolving iron chloride in degassed DMSO in nitrogen atmosphere</div>
+  </swiper-slide>
+  <swiper-slide>
+    {% include figure.liquid path="assets/img/lab3.jpg" class="img-fluid rounded z-depth-1" %}
+    <div class="caption">Synthesised ligand for the synthesis investigation lab</div>
+  </swiper-slide>
+</swiper-container>
 
 <div class="caption">
     Some snapshots from a sailing competition
 </div>
-<div class="row align-items-center">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/sailing1.jpg" class="img-fluid rounded z-depth-1" %}
-        <div class="caption">
-            Switching boats at a competition
-        </div>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/sailing2.jpg" class="img-fluid rounded z-depth-1" %}
-        <div class="caption">
-            Sailing at Reading 2025 competition
-        </div>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/sailing3.jpg" class="img-fluid rounded z-depth-1" %}
-        <div class="caption">
-            Team picture from Reading 2025
-        </div>
-    </div>
-</div>
+<swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true" style="max-width: 67%; margin: 0 auto;">
+  <swiper-slide>
+    {% include figure.liquid path="assets/img/sailing1.jpg" class="img-fluid rounded z-depth-1" %}
+    <div class="caption">Switching boats at a competition</div>
+  </swiper-slide>
+  <swiper-slide>
+    {% include figure.liquid path="assets/img/sailing2.jpg" class="img-fluid rounded z-depth-1" %}
+    <div class="caption">Sailing at Reading 2025 competition</div>
+  </swiper-slide>
+  <swiper-slide>
+    {% include figure.liquid path="assets/img/sailing3.jpg" class="img-fluid rounded z-depth-1" %}
+    <div class="caption">Team picture from Reading 2025</div>
+  </swiper-slide>
+</swiper-container>
