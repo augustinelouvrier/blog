@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Going into third year of my MChem course at Imperial College London
+subtitle: Augustine Louvrier
 
 profile:
   align: right
@@ -26,21 +26,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm Augustine, an MChem student at Imperial College London. The area of chemistry I am most interested in is the chemistry of cosmetics, skincare and fragrance.
+I'm Augustine, an MChem student at Imperial College London, going into my third year. I am most interested in the areas of cosmetics, skincare and fragrance.
 
-In this blog I want to write about anything that piques my interest in this field. I want to push my limits of chemical understanding by exploring actual research papers and trying to digest the information in the form of a blog.
+In this blog I want to write about anything that piques my interest in this field. I want to push my limits of chemical understanding by exploring actual research papers and trying to digest the information in the form of a blog. I also want to create some articles where I break down chemistry topics into simpler terms for anyone to learn from.
 
-Besides chemistry, I spend my free time doing drawings and paintings, cooking, and sailing. I am the incoming vice commodore of the Imperial sailing society. 
-
-## Favourite resources
-
-Some sites I love and keep coming back to:
-
-- [Compound Interest](https://www.compoundchem.com/) — clear infographics on everyday chemistry
-- [Royal Society of Chemistry](https://www.rsc.org/) — journals, news and teaching material
-- [PubChem](https://pubchem.ncbi.nlm.nih.gov/) — a free database to look up any molecule
-
-You can also highlight a phrase in the site's <span style="color: var(--global-theme-color)">purple accent colour</span> whenever you want to draw the eye to it.
+Besides chemistry, I enjoy drawing and painting, cooking, and sailing. I am the incoming vice commodore of the Imperial College Sailing Club. 
 
 <div style="clear: both;"></div>
 <div class="caption">

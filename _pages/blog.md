@@ -23,10 +23,10 @@ pagination:
 
 {% if blog_name_size > 0 or blog_description_size > 0 %}
 
-  <div class="header-bar">
-    <h1>{{ site.blog_name }}</h1>
-    <h2>{{ site.blog_description }}</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">{{ site.blog_name }}</h1>
+    <p class="post-description">{{ site.blog_description }}</p>
+  </header>
   {% endif %}
 
 <!-- Category descriptions — edit the text after each "—" to describe your two categories. -->
