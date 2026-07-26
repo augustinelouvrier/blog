@@ -1,10 +1,11 @@
 cv:
-  name: Augustine
-  label: Chemistry Student
+  name: Augustine Louvrier
+  label: MChem Chemistry student, Imperial College London
   email: augustinelouvrier@gmail.com
+  phone: "+44 7399 583305"
   location: London, UK
   image: ""
-  summary: Undergraduate chemistry student with a strong interest in cosmetic formulation chemistry.
+  summary: Second-year MChem Chemistry student at Imperial College London, with hands-on experience across NMR, IR, UV-vis, mass spectrometry and EPR. Developing a focus on cosmetic formulation chemistry through independent study and blog writing, alongside a broader interest in sustainable chemistry and applying analytical chemistry to real-world problems.
 
   social_networks:
     - network: LinkedIn
@@ -13,80 +14,85 @@ cv:
   sections:
     Education:
       - institution: Imperial College London
-        location: London, UK
-        url: https://www.imperial.ac.uk/
         area: Chemistry
-        studyType: MSc
+        studyType: Integrated Master's (MChem)
+        location: London, UK
         start_date: 2024
-        end_date: 2028
-        score: "2:1, expected first class"
-        courses: Ancillary module, Maths and Physics
         highlights:
-          - Provisional A in "Control and Selectivity in Molecular Synthesis" and "Macromolecules and Materials"
-          - 83.7% in Practical Chemistry in first year
+          - "Year 1: A (83.7%) in Practical Chemistry; 69.44% overall"
+          - "Year 2 (provisional): A in Practical Chemistry, Control and Selectivity in Molecular Synthesis, and Macromolecules and Materials, with B grades across remaining modules"
+          - Independent lab work includes designing a synthesis protocol to probe ligand effects on Cu(II) complex geometry (EPR/MATLAB), and Python-based UV-vis data processing
+          - "Macromolecules and Materials group project: investigated the polymer conjugation chemistry of the PEGylated peptide drug peginesatide"
 
       - institution: City of London School for Girls
+        studyType: A-Levels
         location: London, UK
-        url: https://www.cityoflondonschoolforgirls.co.uk/
-        studyType: A-levels
         start_date: 2022
         end_date: 2024
-        score: Biology (A*), Chemistry (A*), Maths (A*), French (A*)
-
-    Research and Project Experience:
-      - title: Synthesis Investigation Lab
-        summary: Independently designed a synthesis protocol to determine the effect of a ligand on the geometry of a Cu(II) complex. Characterised by EPR, UV-Vis and IR spectroscopy.
-        location: Imperial College London, UK
-        start_date: 2026-02
-        end_date: 2026-02
         highlights:
-          - EPR analysis using MATLAB
+          - 'Biology A\*, Chemistry A\*, French A\*, Mathematics A\*'
 
-      - title: Hack It!
-        summary: Group project. Processed dry courgette waste with dilute NaOH and tested its used as a biosorbent for heavy metals.
-        location: Imperial College London, UK
-        start_date: 2025-06
-        end_date: 2025-06
+    Experience:
+      - position: Group Research Project — Food-Waste Biosorbents for Heavy-Metal Removal
+        company: Imperial College London
+        location: London, UK
+        start_date: 2025
+        end_date: 2025
+        summary: Team-based investigation into the use of agricultural waste materials as low-cost sorbents for remediation of heavy-metal-contaminated water.
         highlights:
-          - IR analysis
-          - UV-Vis protocol designed to test heavy metal uptake
+          - Contributed to experimental work, data analysis and the final presentation
 
-      - title: iGEM (City of London UK)
-        summary: Co-developed early-stage research proposal for engineered E. coli to remove heavy metals from contaminanted water. Supported team project Genoswitch, a woman's health diagnostic, through research and developement.
-        location: City of London School for Girls, UK
-        start_date: 2022-10
-        end_date: 2023-10
- 
-      - title: Summer Research Programme
-        summary: Hands-on work in a univeristy research laboratory. Learned about the chemistry of haemoglobin and infectious diseases. Group project on HIV vaccines with poster presentation.
-        location: University of Chicago, USA
-        start_date: 2022-06
-        end_date: 2022-07
-        highlights:
-          - PCR
-          - Gel electrophoresis
+      - position: iGEM (City of London UK) — Team Member
+        company: City of London School for Girls
+        location: London, UK
+        start_date: 2022
+        end_date: 2023
+        summary: Early-stage research into engineered E. coli for heavy-metal water remediation; supported the team's selected project ("Genoswitch", a women's health diagnostic) through research and scientific communication.
 
+      - position: Summer Research Programme
+        company: University of Chicago
+        location: USA
+        start_date: 2022
+        end_date: 2022
+        summary: PCR, gel electrophoresis and DNA/protein analysis applied to the chemistry of haemoglobin and infectious disease.
 
-    Volunteer:
-      - title: Imperial College Sailing Club
-        position: Secretary, incoming Vice Commodore
-        start_date: 2025-09
-        end_date: present
-        summary: Manage club communication, organise events and in charge of kkt and merch order.  
+    Skills:
+      - name: Analytical
+        keywords:
+          - NMR
+          - Mass spectrometry
+          - UV-vis
+          - IR
+          - EPR
+          - Chromatography
+      - name: Laboratory
+        keywords:
+          - Flash column chromatography
+          - Inert-atmosphere synthesis
+          - Experimental design
+      - name: Computational
+        keywords:
+          - Python
+          - MATLAB
+          - ChemDraw
+          - MestReNova
+          - GaussView
 
-      - title: Girl Guides (Scouts)
-        position: Leader
-        location: Belgium
-        start_date: 2023-09
-        end_date: present
-        summary: Plan and lead activities and summer camps for girls aged 8-12 collaborating with other leaders.
+    Outreach & Communication:
+      - bullet: '**Outreach Laboratory Assistant**, Imperial College London Chemistry Department (Jun–Jul 2026). Assisted in running hands-on laboratory sessions for Year 10 and Year 12 school outreach days.'
+      - bullet: '**Personal Chemistry Blog** (Jun 2026–present). Write and maintain an independent blog on cosmetics and skincare chemistry, sourced from peer-reviewed literature.'
+
+    Activities:
+      - bullet: '**Secretary, Imperial College Sailing Society** (Aug 2025–present). Club communications, event scheduling and merchandise procurement.'
+      - bullet: '**Leader, Scouts (Belgium)** (Sep 2023–present). Plan and deliver activities for children aged 8–12.'
+      - bullet: '**Sustainability Society** (Sep 2022–Sep 2023). School sustainability committee member; attended a 2022 conference on supercritical CO<sub>2</sub> as a green solvent for materials recycling.'
 
     Languages:
-      - name: English
-        summary: "Native speaker"
-
       - name: French
-        summary: "Native speaker"
+        summary: "Native (bilingual)"
+
+      - name: English
+        summary: "Native (bilingual)"
 
       - name: Spanish
-        summary: "Intermediate"
+        summary: "B2"
