@@ -64,6 +64,10 @@ Besides chemistry, I enjoy drawing and painting, cooking, and sailing. I am the 
   .about-carousel .caption {
     margin-top: 0.6rem;
     margin-bottom: 0;
+    padding-bottom: 1.9rem;
+  }
+  .about-carousel {
+    --swiper-pagination-bottom: 2px;
   }
 </style>
 
